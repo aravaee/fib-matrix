@@ -5,13 +5,13 @@
 
 ## The sequence F<sub>n</sub> of Fibonacci numbers is defined by the recurrence relation:
 
-F<sub>n</sub> = F<sub>n-1</sub> + F<sub>n-1</sub>, Where F<sub>0</sub> = 0 and F<sub>1</sub> = 1.
+F<sub>n</sub> = F<sub>n-1</sub> + F<sub>n-1</sub>, where F<sub>0</sub> = 0 and F<sub>1</sub> = 1.
 
 ### This algorithm is based on:
 
-## <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/f90aae99d109a6d152d80d03d0353a5e849c560e" class="mwe-math-fallback-image-display" aria-hidden="true" style="background: white; vertical-align: -2.227ex; margin-bottom: -0.278ex; width:29.906ex; height:6.176ex;" alt="{\displaystyle {\begin{pmatrix}1&amp;1\\1&amp;0\end{pmatrix}}^{n}={\begin{pmatrix}F_{n+1}&amp;F_{n}\\F_{n}&amp;F_{n-1}\end{pmatrix}}}">
+> The Fibonacci numbers occur as the ratio of successive convergents of the continued fraction for φ, and the matrix formed from successive convergents of any continued fraction has a determinant of +1 or −1. The matrix representation gives the following closed-form expression for the Fibonacci numbers:
 
-<br>
+![](function.png)
 
 ### Time Complexity
 
@@ -23,3 +23,7 @@ The time taken by using power of the matrix is O(n)
 make
 ./main
 ```
+
+## Output:
+
+![](output.png)

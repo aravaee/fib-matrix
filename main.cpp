@@ -17,6 +17,7 @@
  */
 int main(int argc, char const *argv[])
 {
+    std::cout << "Printing every 20th fibonacci number from 0 to 500:" << std::endl;
     for (int i = 0; i <= 25; ++i)
     {
         std::cout << i * 20 << ": " << fib(i * 20) << std::endl;
