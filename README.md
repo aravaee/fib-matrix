@@ -9,9 +9,7 @@ F<sub>n</sub> = F<sub>n-1</sub> + F<sub>n-1</sub>, Where F<sub>0</sub> = 0 and F
 
 ### This algorithm is based on:
 
-## <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/f90aae99d109a6d152d80d03d0353a5e849c560e" class="mwe-math-fallback-image-display" aria-hidden="true" style="background: white; vertical-align: -2.227ex; margin-bottom: -0.278ex; width:29.906ex; height:6.176ex;" alt="{\displaystyle {\begin{pmatrix}1&amp;1\\1&amp;0\end{pmatrix}}^{n}={\begin{pmatrix}F_{n+1}&amp;F_{n}\\F_{n}&amp;F_{n-1}\end{pmatrix}}}">
-
-<br>
+<img src="https://latex.codecogs.com/gif.latex?\displaystyle {\begin{pmatrix}1&1\\1&0\end{pmatrix}}^{n}={\begin{pmatrix}F_{n+1}&F_{n}\\F_{n}&F_{n-1}\end{pmatrix}}"/>
 
 ### Time Complexity
 
